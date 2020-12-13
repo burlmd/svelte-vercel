@@ -9,6 +9,48 @@
   });
 </script>
 
+<style>
+
+header {
+  background: lightpink;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  position: sticky;
+  top: 10px;
+}
+
+.left-sidebar {
+  background: lightblue;
+  grid-column: 1 / 2;
+}
+
+main {
+  background: coral;
+  grid-column: 2 / 3;
+}
+
+.right-sidebar {
+  background: yellow;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+</style>
+
+
+<header><h1>Header.com</h1></header>
+<div class="left-sidebar">Left Sidebar</div>
 <main>
   <h1>Hello Mark</h1>
   <h1>Svelte + Node.js API</h1>
@@ -46,4 +88,7 @@
   <br />
   <h2>The date according to Node.js is:</h2>
   <p>{date ? date : 'Loading date...'}</p>
-</main>
+</main><div class="right-sidebar">Right Sidebar</div>
+<footer>Footer Content — Header.com 2020</footer>
+
+
