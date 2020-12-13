@@ -16,7 +16,7 @@ header {
   padding: 2rem;
   grid-column: 1 / 4;
   position: sticky;
-  top: 10px;
+  top: 0;
 }
 
 .left-sidebar {
