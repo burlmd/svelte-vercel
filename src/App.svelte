@@ -10,6 +10,7 @@
 </script>
 
 <main>
+  <h1>Hello Mark</h1>
   <h1>Svelte + Node.js API</h1>
   <h2>
     Deployed with
