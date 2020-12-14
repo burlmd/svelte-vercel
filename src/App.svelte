@@ -10,6 +10,8 @@
 </script>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
   header {
     background: #0056b8;
     padding: 2rem;
